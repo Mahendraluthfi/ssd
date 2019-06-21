@@ -9,14 +9,14 @@ class Cell extends CI_Controller {
 		if ($get->status == "0") {
 			$data['show'] = '<div class="zoom-effect">
             	<div class="kotak">
-           			<div class="box-p"><button type="button" class="boxfalse btn btn-lg" data-toggle="modal" data-target="#menu-2">C'.$label.'</button>
+           			<div class="box-p"><button type="button" class="boxfalse btn btn-lg" data-toggle="modal" data-target="#menu-2">Cell '.$label.'</button>
            			</div>
             	</div>
         	</div>';
 		}else{
 			$data['show'] = '<div class="zoom-effect">
             	<div class="kotak">
-           			<div class="box-p"><button type="button" class="boxtrue btn btn-lg" data-toggle="modal" data-target="#menu-2">C'.$label.'</button>
+           			<div class="box-p"><button type="button" class="boxtrue btn btn-lg" data-toggle="modal" data-target="#menu-2">Cell '.$label.'</button>
     	       		</div>
 	            </div>
         	</div>';
