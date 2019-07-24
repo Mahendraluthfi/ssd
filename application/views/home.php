@@ -44,37 +44,37 @@
       $('#mod2c8').load('<?php echo site_url() ?>cell/index/18/8').fadeIn("slow");
       $('#mod2c9').load('<?php echo site_url() ?>cell/index/19/9').fadeIn("slow");
       $('#mod2c10').load('<?php echo site_url() ?>cell/index/20/10').fadeIn("slow");
-      // $('#mod3c1').load('<?php echo site_url() ?>modul3/c1').fadeIn("slow");
-      // $('#mod3c2').load('<?php echo site_url() ?>modul3/c2').fadeIn("slow");
-      // $('#mod3c3').load('<?php echo site_url() ?>modul3/c3').fadeIn("slow");
-      // $('#mod3c4').load('<?php echo site_url() ?>modul3/c4').fadeIn("slow");
-      // $('#mod3c5').load('<?php echo site_url() ?>modul3/c5').fadeIn("slow");
-      // $('#mod3c6').load('<?php echo site_url() ?>modul3/c6').fadeIn("slow");
-      // $('#mod3c7').load('<?php echo site_url() ?>modul3/c7').fadeIn("slow");
-      // $('#mod3c8').load('<?php echo site_url() ?>modul3/c8').fadeIn("slow");
-      // $('#mod3c9').load('<?php echo site_url() ?>modul3/c9').fadeIn("slow");
-      // $('#mod3c10').load('<?php echo site_url() ?>modul3/c10').fadeIn("slow");
-      // $('#mod4c1').load('<?php echo site_url() ?>modul4/c1').fadeIn("slow");
-      // $('#mod4c2').load('<?php echo site_url() ?>modul4/c2').fadeIn("slow");
-      // $('#mod4c3').load('<?php echo site_url() ?>modul4/c3').fadeIn("slow");
-      // $('#mod4c4').load('<?php echo site_url() ?>modul4/c4').fadeIn("slow");
-      // $('#mod4c5').load('<?php echo site_url() ?>modul4/c5').fadeIn("slow");
-      // $('#mod4c6').load('<?php echo site_url() ?>modul4/c6').fadeIn("slow");
-      // $('#mod4c7').load('<?php echo site_url() ?>modul4/c7').fadeIn("slow");
-      // $('#mod4c8').load('<?php echo site_url() ?>modul4/c8').fadeIn("slow");
-      // $('#mod4c9').load('<?php echo site_url() ?>modul4/c9').fadeIn("slow");
-      // $('#mod4c10').load('<?php echo site_url() ?>modul4/c10').fadeIn("slow");
-      // $('#mod5c1').load('<?php echo site_url() ?>modul5/c1').fadeIn("slow");
-      // $('#mod5c2').load('<?php echo site_url() ?>modul5/c2').fadeIn("slow");
-      // $('#mod5c3').load('<?php echo site_url() ?>modul5/c3').fadeIn("slow");
-      // $('#mod5c4').load('<?php echo site_url() ?>modul5/c4').fadeIn("slow");
-      // $('#mod5c5').load('<?php echo site_url() ?>modul5/c5').fadeIn("slow");
-      // $('#mod5c6').load('<?php echo site_url() ?>modul5/c6').fadeIn("slow");
-      // $('#mod5c7').load('<?php echo site_url() ?>modul5/c7').fadeIn("slow");
-      // $('#mod5c8').load('<?php echo site_url() ?>modul5/c8').fadeIn("slow");
-      // $('#mod5c9').load('<?php echo site_url() ?>modul5/c9').fadeIn("slow");
-      // $('#mod5c10').load('<?php echo site_url() ?>modul5/c10').fadeIn("slow");
-      }, 5000)
+      $('#mod3c1').load('<?php echo site_url() ?>cell/index/21/1').fadeIn("slow");
+      $('#mod3c2').load('<?php echo site_url() ?>cell/index/22/2').fadeIn("slow");
+      $('#mod3c3').load('<?php echo site_url() ?>cell/index/23/3').fadeIn("slow");
+      $('#mod3c4').load('<?php echo site_url() ?>cell/index/24/4').fadeIn("slow");
+      $('#mod3c5').load('<?php echo site_url() ?>cell/index/25/5').fadeIn("slow");
+      $('#mod3c6').load('<?php echo site_url() ?>cell/index/26/6').fadeIn("slow");
+      $('#mod3c7').load('<?php echo site_url() ?>cell/index/27/7').fadeIn("slow");
+      $('#mod3c8').load('<?php echo site_url() ?>cell/index/28/8').fadeIn("slow");
+      $('#mod3c9').load('<?php echo site_url() ?>cell/index/29/9').fadeIn("slow");
+      $('#mod3c10').load('<?php echo site_url() ?>cell/index/30/10').fadeIn("slow");
+      $('#mod4c1').load('<?php echo site_url() ?>cell/index/31/1').fadeIn("slow");
+      $('#mod4c2').load('<?php echo site_url() ?>cell/index/32/2').fadeIn("slow");
+      $('#mod4c3').load('<?php echo site_url() ?>cell/index/33/3').fadeIn("slow");
+      $('#mod4c4').load('<?php echo site_url() ?>cell/index/34/4').fadeIn("slow");
+      $('#mod4c5').load('<?php echo site_url() ?>cell/index/35/5').fadeIn("slow");
+      $('#mod4c6').load('<?php echo site_url() ?>cell/index/36/6').fadeIn("slow");
+      $('#mod4c7').load('<?php echo site_url() ?>cell/index/37/7').fadeIn("slow");
+      $('#mod4c8').load('<?php echo site_url() ?>cell/index/38/8').fadeIn("slow");
+      $('#mod4c9').load('<?php echo site_url() ?>cell/index/39/9').fadeIn("slow");
+      $('#mod4c10').load('<?php echo site_url() ?>cell/index/40/10').fadeIn("slow");
+      $('#mod5c1').load('<?php echo site_url() ?>cell/index/41/1').fadeIn("slow");
+      $('#mod5c2').load('<?php echo site_url() ?>cell/index/42/2').fadeIn("slow");
+      $('#mod5c3').load('<?php echo site_url() ?>cell/index/43/3').fadeIn("slow");
+      $('#mod5c4').load('<?php echo site_url() ?>cell/index/44/4').fadeIn("slow");
+      $('#mod5c5').load('<?php echo site_url() ?>cell/index/45/5').fadeIn("slow");
+      $('#mod5c6').load('<?php echo site_url() ?>cell/index/46/6').fadeIn("slow");
+      $('#mod5c7').load('<?php echo site_url() ?>cell/index/47/7').fadeIn("slow");
+      $('#mod5c8').load('<?php echo site_url() ?>cell/index/48/8').fadeIn("slow");
+      $('#mod5c9').load('<?php echo site_url() ?>cell/index/49/9').fadeIn("slow");
+      $('#mod5c10').load('<?php echo site_url() ?>cell/index/50/10').fadeIn("slow");
+      }, 10000)
   </script>
   </head>
   <body id="page">
@@ -341,27 +341,10 @@
         <div class="modal-body">>
       		<div class="container">
             <div class="row templatemo_bordergapborder">
-             	<div class="col-md-3 col-sm-12 templatemo_leftgap">
-               	<div class="templatemo_mainimg templatemo_botgap"><i class="pe-7s-cart fa-2x" data-toggle="tooltip" title="Keranjang Anda"data-placement="bottom"></i>
-                </div>
-                  <div class="templatemo_mainservice templatemo_botgap">
-                    <div class="templatemo_linkservice"><a class="show-1 templatemo_homeservice">MODUL 1</a></div>
-                    <div class="templatemo_linkservice"><i class="pe-7s-cart fa-3x" data-placement="bottom"></i></div>
-                  </div>
-              </div>
-              <div class="templatemo_col37 col-sm-12 templatemo_leftgap">
-                <div class="templatemo_graybg">
-                  <div class="templatemo_frame">
-                    <h2>Cell 1</h2>
-                      <div class="clear"></div>
-                        <p>No Data View...</p>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
-        </div>
-      </div>
+        </div>      
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
