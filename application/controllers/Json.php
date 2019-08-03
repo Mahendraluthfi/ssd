@@ -26,16 +26,25 @@ class Json extends CI_Controller {
 		}else{		
 			$cek = $this->db->get_where('log', array('id_cell' => $id, 'status' => '0'));
 			$data = $cek->row();
+			
+			$out = date_create($data->time_out);
+			$in = date_create(date('H:i:s'));
+			$diff = date_diff($in, $out);
+
+			$jam = $diff->h;
+			$menit = ($jam * 60) + $diff->i;
+			$total = ($menit * 60) + $diff->s;			
 
 			if ($cek->num_rows() > 0) {				
 				$this->db->where('id', $data->id);
 				$this->db->update('log', array(
 					'time_in' => date('H:i:s'),
+					'diff' => $total,
 					'status' => '1'
 				));
 			}
+			// echo $data->time_out;
 		}		
-
 
 		echo json_encode(array('status' => TRUE));
 	}
