@@ -24,7 +24,7 @@ class Json extends CI_Controller {
 				));							
 			}
 
-			echo json_encode(0);
+			echo json_encode(1);
 		}else{		
 			$cek = $this->db->get_where('log', array('id_cell' => $id, 'status' => '0'));
 			$data = $this->db->get_where('log', array('id_cell' => $id, 'status' => '0'))->result();
@@ -51,7 +51,7 @@ class Json extends CI_Controller {
 				}
 			}
 			// echo $data->time_out;
-			echo json_encode(1);	
+			echo json_encode(2);	
 		}		
 
 	}

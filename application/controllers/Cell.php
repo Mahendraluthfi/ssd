@@ -7,19 +7,13 @@ class Cell extends CI_Controller {
 	{
 		$get = $this->db->get_where('cell', array('id_cell' => $id))->row();		
 		if ($get->status == "0") {
-			$data['show'] = '<div class="zoom-effect">
-            	<div class="kotak">
-           			<div class="box-p"><button type="button" class="boxfalse btn btn-lg" data-toggle="modal" data-target="#menu-2">Cell '.$label.'</button>
-           			</div>
-            	</div>
-        	</div>';
+			$data['show'] = '
+				<button type="button" class="btn btn-danger btn-cell">Cell '.$label.'</button>
+			';
 		}else{
-			$data['show'] = '<div class="zoom-effect">
-            	<div class="kotak">
-           			<div class="box-p"><button type="button" class="boxtrue btn btn-lg" data-toggle="modal" data-target="#menu-2">Cell '.$label.'</button>
-    	       		</div>
-	            </div>
-        	</div>';
+			$data['show'] = '
+				<button type="button" class="btn btn-primary btn-cell">Cell '.$label.'</button>
+			';
 		}
 
 		$this->load->view('cell', $data);
