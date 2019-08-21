@@ -4,7 +4,7 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Page Title</title>
+		<title>Silueta System Demand</title>
 
 		<!-- Bootstrap CSS -->
     	<link href="<?php echo base_url() ?>assets/frontend/images/mas_icon.png" rel="icon" type="image/x-icon">		
@@ -24,9 +24,10 @@
 				width: 100%;
 				height: 70px;
 				font-size: 18px;
+				font-weight: bold;
 			}
 			.padd-bottom{
-				margin-bottom: 20px;
+				margin-bottom: 8px;
 			}
 		</style>
 		<script>
