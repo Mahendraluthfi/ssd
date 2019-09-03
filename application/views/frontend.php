@@ -29,63 +29,7 @@
 			.padd-bottom{
 				margin-bottom: 8px;
 			}
-		</style>
-		<script>
-      var otomatis = setInterval(
-      function ()
-      {
-      $('#mod1c1').load('<?php echo base_url() ?>cell/index/1/1').fadeIn("slow");
-      $('#mod1c2').load('<?php echo site_url() ?>cell/index/2/2').fadeIn("slow");
-      $('#mod1c3').load('<?php echo site_url() ?>cell/index/3/3').fadeIn("slow");
-      $('#mod1c4').load('<?php echo site_url() ?>cell/index/4/4').fadeIn("slow");
-      $('#mod1c5').load('<?php echo site_url() ?>cell/index/5/5').fadeIn("slow");
-      $('#mod1c6').load('<?php echo site_url() ?>cell/index/6/6').fadeIn("slow");
-      $('#mod1c7').load('<?php echo site_url() ?>cell/index/7/7').fadeIn("slow");
-      $('#mod1c8').load('<?php echo site_url() ?>cell/index/8/8').fadeIn("slow");
-      $('#mod1c9').load('<?php echo site_url() ?>cell/index/9/9').fadeIn("slow");
-      $('#mod1c10').load('<?php echo site_url() ?>cell/index/10/10').fadeIn("slow");
-      $('#mod2c1').load('<?php echo base_url() ?>cell/index/11/1').fadeIn("slow");
-      $('#mod2c2').load('<?php echo site_url() ?>cell/index/12/2').fadeIn("slow");
-      $('#mod2c3').load('<?php echo site_url() ?>cell/index/13/3').fadeIn("slow");
-      $('#mod2c4').load('<?php echo site_url() ?>cell/index/14/4').fadeIn("slow");
-      $('#mod2c5').load('<?php echo site_url() ?>cell/index/15/5').fadeIn("slow");
-      $('#mod2c6').load('<?php echo site_url() ?>cell/index/16/6').fadeIn("slow");
-      $('#mod2c7').load('<?php echo site_url() ?>cell/index/17/7').fadeIn("slow");
-      $('#mod2c8').load('<?php echo site_url() ?>cell/index/18/8').fadeIn("slow");
-      $('#mod2c9').load('<?php echo site_url() ?>cell/index/19/9').fadeIn("slow");
-      $('#mod2c10').load('<?php echo site_url() ?>cell/index/20/10').fadeIn("slow");
-      $('#mod3c1').load('<?php echo site_url() ?>cell/index/21/1').fadeIn("slow");
-      $('#mod3c2').load('<?php echo site_url() ?>cell/index/22/2').fadeIn("slow");
-      $('#mod3c3').load('<?php echo site_url() ?>cell/index/23/3').fadeIn("slow");
-      $('#mod3c4').load('<?php echo site_url() ?>cell/index/24/4').fadeIn("slow");
-      $('#mod3c5').load('<?php echo site_url() ?>cell/index/25/5').fadeIn("slow");
-      $('#mod3c6').load('<?php echo site_url() ?>cell/index/26/6').fadeIn("slow");
-      $('#mod3c7').load('<?php echo site_url() ?>cell/index/27/7').fadeIn("slow");
-      $('#mod3c8').load('<?php echo site_url() ?>cell/index/28/8').fadeIn("slow");
-      $('#mod3c9').load('<?php echo site_url() ?>cell/index/29/9').fadeIn("slow");
-      $('#mod3c10').load('<?php echo site_url() ?>cell/index/30/10').fadeIn("slow");
-      $('#mod4c1').load('<?php echo site_url() ?>cell/index/31/1').fadeIn("slow");
-      $('#mod4c2').load('<?php echo site_url() ?>cell/index/32/2').fadeIn("slow");
-      $('#mod4c3').load('<?php echo site_url() ?>cell/index/33/3').fadeIn("slow");
-      $('#mod4c4').load('<?php echo site_url() ?>cell/index/34/4').fadeIn("slow");
-      $('#mod4c5').load('<?php echo site_url() ?>cell/index/35/5').fadeIn("slow");
-      $('#mod4c6').load('<?php echo site_url() ?>cell/index/36/6').fadeIn("slow");
-      $('#mod4c7').load('<?php echo site_url() ?>cell/index/37/7').fadeIn("slow");
-      $('#mod4c8').load('<?php echo site_url() ?>cell/index/38/8').fadeIn("slow");
-      $('#mod4c9').load('<?php echo site_url() ?>cell/index/39/9').fadeIn("slow");
-      $('#mod4c10').load('<?php echo site_url() ?>cell/index/40/10').fadeIn("slow");
-      $('#mod5c1').load('<?php echo site_url() ?>cell/index/41/1').fadeIn("slow");
-      $('#mod5c2').load('<?php echo site_url() ?>cell/index/42/2').fadeIn("slow");
-      $('#mod5c3').load('<?php echo site_url() ?>cell/index/43/3').fadeIn("slow");
-      $('#mod5c4').load('<?php echo site_url() ?>cell/index/44/4').fadeIn("slow");
-      $('#mod5c5').load('<?php echo site_url() ?>cell/index/45/5').fadeIn("slow");
-      $('#mod5c6').load('<?php echo site_url() ?>cell/index/46/6').fadeIn("slow");
-      $('#mod5c7').load('<?php echo site_url() ?>cell/index/47/7').fadeIn("slow");
-      $('#mod5c8').load('<?php echo site_url() ?>cell/index/48/8').fadeIn("slow");
-      $('#mod5c9').load('<?php echo site_url() ?>cell/index/49/9').fadeIn("slow");
-      $('#mod5c10').load('<?php echo site_url() ?>cell/index/50/10').fadeIn("slow");
-      }, 3000)
-  </script>
+		</style>		
 	</head>
 	<body><p></p>
 		<div class="container-fluid">		
@@ -106,216 +50,213 @@
 				<div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
 				<div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
 					<div class="row padd-bottom">
-						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod1c1"></div>
+						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">                      		
+                  			<button id="cell_1" type="button">Cell 1</button>                      		
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod1c2"></div>							
-						</div>
-					</div>	
-					<div class="row padd-bottom">
-						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod1c3"></div>							
-						</div>
-						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod1c4"></div>							
+              				<button id="cell_2" type="button">Cell 2</button>                      		
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod1c5"></div>							
+              				<button id="cell_3" type="button">Cell 3</button>                      		
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod1c6"></div>							
-						</div>
-					</div>	
-					<div class="row padd-bottom">
-						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod1c7"></div>							
-						</div>
-						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod1c8"></div>							
+              				<button id="cell_4" type="button">Cell 4</button>                      		
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod1c9"></div>							
+              				<button id="cell_5" type="button">Cell 5</button>                      		
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod1c10"></div>							
+              				<button id="cell_6" type="button">Cell 6</button>                      		
+						</div>
+					</div>	
+					<div class="row padd-bottom">
+						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
+              				<button id="cell_7" type="button">Cell 7</button>                      		
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
+              				<button id="cell_8" type="button">Cell 8</button>                      		
+						</div>
+					</div>	
+					<div class="row padd-bottom">
+						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
+              				<button id="cell_9" type="button">Cell 9</button>                      		
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
+              				<button id="cell_10" type="button">Cell 10</button>                      		
 						</div>
 					</div>	
 				</div>
 				<div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">					
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod2c1"></div>
+                      		<button type="button" id="cell_11">Cell 1</button>
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod2c2"></div>							
-						</div>
-					</div>	
-					<div class="row padd-bottom">
-						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod2c3"></div>							
-						</div>
-						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod2c4"></div>							
+                      		<button type="button" id="cell_12">Cell 2</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod2c5"></div>							
+                      		<button type="button" id="cell_13">Cell 3</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod2c6"></div>							
-						</div>
-					</div>	
-					<div class="row padd-bottom">
-						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod2c7"></div>							
-						</div>
-						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod2c8"></div>							
+                      		<button type="button" id="cell_14">Cell 4</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod2c9"></div>							
+                      		<button type="button" id="cell_15">Cell 5</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod2c10"></div>							
+                      		<button type="button" id="cell_16">Cell 6</button>							
+						</div>
+					</div>	
+					<div class="row padd-bottom">
+						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
+                      		<button type="button" id="cell_17">Cell 7</button>							
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
+                      		<button type="button" id="cell_18">Cell 8</button>							
+						</div>
+					</div>	
+					<div class="row padd-bottom">
+						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
+                      		<button type="button" id="cell_19">Cell 9</button>							
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
+                      		<button type="button" id="cell_20">Cell 10</button>							
 						</div>
 					</div>	
 				</div>
 				<div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">					
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod3c1"></div>
+                      		<button type="button" id="cell_21">Cell 1</button>
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod3c2"></div>							
+                      		<button type="button" id="cell_22">Cell 2</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod3c3"></div>							
+                      		<button type="button" id="cell_23">Cell 3</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod3c4"></div>							
+                      		<button type="button" id="cell_24">Cell 4</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod3c5"></div>							
+                      		<button type="button" id="cell_25">Cell 5</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod3c6"></div>							
+                      		<button type="button" id="cell_26">Cell 6</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod3c7"></div>							
+                      		<button type="button" id="cell_27">Cell 7</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod3c8"></div>							
+                      		<button type="button" id="cell_28">Cell 8</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod3c9"></div>							
+                      		<button type="button" id="cell_29">Cell 9</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod3c10"></div>							
+                      		<button type="button" id="cell_30">Cell 10</button>							
 						</div>
 					</div>	
-				
 				</div>
 				<div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">					
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod4c1"></div>
+                      		<button type="button" id="cell_31">Cell 1</button>
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod4c2"></div>							
+                      		<button type="button" id="cell_32">Cell 2</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod4c3"></div>							
+                      		<button type="button" id="cell_33">Cell 3</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod4c4"></div>							
+                      		<button type="button" id="cell_34">Cell 4</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod4c5"></div>							
+                      		<button type="button" id="cell_35">Cell 5</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod4c6"></div>							
+                      		<button type="button" id="cell_36">Cell 6</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod4c7"></div>							
+                      		<button type="button" id="cell_37">Cell 7</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod4c8"></div>							
+                      		<button type="button" id="cell_38">Cell 8</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod4c9"></div>							
+                      		<button type="button" id="cell_39">Cell 9</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod4c10"></div>							
+                      		<button type="button" id="cell_40">Cell 10</button>							
 						</div>
 					</div>	
-				
 				</div>
 				<div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">					
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod5c1"></div>
+                      		<button type="button" id="cell_41">Cell 1</button>
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod5c2"></div>							
+                      		<button type="button" id="cell_42">Cell 2</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod5c3"></div>							
+                      		<button type="button" id="cell_43">Cell 3</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod5c4"></div>							
+                      		<button type="button" id="cell_44">Cell 4</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod5c5"></div>							
+                      		<button type="button" id="cell_45">Cell 5</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod5c6"></div>							
+                      		<button type="button" id="cell_46">Cell 6</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod5c7"></div>							
+                      		<button type="button" id="cell_47">Cell 7</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod5c8"></div>							
+                      		<button type="button" id="cell_48">Cell 8</button>							
 						</div>
 					</div>	
 					<div class="row padd-bottom">
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod5c9"></div>							
+                      		<button type="button" id="cell_49">Cell 9</button>							
 						</div>
 						<div class="col-sm-6 col-md-6 col-lg-6 no-padding">
-                      		<div id="mod5c10"></div>							
+                      		<button type="button" id="cell_50">Cell 10</button>							
 						</div>
 					</div>	
-				
 				</div>
 				<div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
 			</div>
@@ -324,5 +265,35 @@
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->		
+
+		<script>
+			var interval = setInterval(
+				function get() {
+					$.ajax({
+			            url : "<?php echo site_url('index.php/cell/getJson')?>/",
+			            type: "GET",
+			            dataType: "JSON",
+			            success: function(data)
+			            {                                    			            	
+			            	for (var i = 0; i < data.length; i++) {			            		
+				                if(data[i].status == 0){
+				                	$('#cell_'+data[i].id_cell).removeAttr('class');
+				                	$('#cell_'+data[i].id_cell).attr('class','btn btn-danger btn-cell');
+				                }else{
+				                	$('#cell_'+data[i].id_cell).removeAttr('class');			                				                	
+				                	$('#cell_'+data[i].id_cell).attr('class','btn btn-primary btn-cell');
+				                }			            	
+			            	}
+			            },
+			            error: function (jqXHR, textStatus, errorThrown)
+			            {
+			                alert('Error get data from ajax');
+			            }
+			        });
+				}
+				, 1000
+			)
+
+		</script>
 	</body>
 </html>

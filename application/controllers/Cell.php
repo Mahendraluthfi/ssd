@@ -31,6 +31,11 @@ class Cell extends CI_Controller {
 		$this->load->view('cell', $data);
 	}
 
+	public function getJson()
+	{
+		$data = $this->db->get_where('cell')->result();
+		echo json_encode($data);
+	}
 
 }
 
